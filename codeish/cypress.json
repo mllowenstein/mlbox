@@ -1,0 +1,28 @@
+{
+  "integrationFolder": "cypress/integration",
+  "fixturesFolder": "cypress/fixtures",
+  "supportFile": "cypress/support",
+  "baseUrl": "https://localhost:4200",
+  "screenshotsFolder": "cypress/screenshots",
+  "downloadsFolder": "cypress/downloads",
+  "videosFolder": "cypress/videos",
+  "watchForFileChanges": true,
+  "pluginsFile": false,
+  "video": true,
+  "env": {
+    "production": false,
+    "socketUrl": "",
+    "graphUrl": "",
+    "restUrl": "",
+    "dotUrl": ""
+  },
+  "defaultCommandTimeout": 5000,
+  "slowTestThreshold": 10000,
+  "responseTimeout": 30000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 5000,
+  "videoCompression": 16,
+  "execTimeout": 60000,
+  "taskTimeout": 60000,
+  "retries": 3
+}
